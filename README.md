@@ -26,8 +26,8 @@ To get started with the Simple Weather App, follow the installation steps below.
 
 ## Tech Stack 🛠️
 
-- **Frontend:** React, Vite
-- **Styling:** CSS / Tailwind / styled-components _(choose the one you used)_
+- **Frontend:** ReactJs
+- **Styling:** CSS / SCSS 
 - **API:** [OpenWeatherMap](https://openweathermap.org/api)
 
 ---
