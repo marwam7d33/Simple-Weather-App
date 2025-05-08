@@ -1,8 +1,49 @@
-# React + Vite
+# Simple Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based weather application that shows real-time weather data for any city using a clean UI.
 
-Currently, two official plugins are available:
+## Get Started 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with the Simple Weather App, follow the installation steps below.
+
+---
+
+## Features 🔥
+
+- 🔍 Search weather by city
+- 🌡️ Displays temperature, humidity, and conditions
+- 📍 Location-based weather (optional)
+- ⚡ Built with React + Vite for lightning-fast performance
+- 🎨 Responsive and minimalist UI
+
+---
+
+## Screenshot 📸
+
+![Screenshot](../Weather%20App/src/assets/Screenshot.png.png)
+
+---
+
+## Tech Stack 🛠️
+
+- **Frontend:** React, Vite
+- **Styling:** CSS / Tailwind / styled-components _(choose the one you used)_
+- **API:** [OpenWeatherMap](https://openweathermap.org/api)
+
+---
+
+## Installation 📦
+
+```bash
+# Clone the repository
+git clone https://github.com/marwam7d33/Simple-Weather-App.git
+
+# Navigate into the folder
+cd Simple-Weather-App
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
