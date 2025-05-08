@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+// VARIABLES
+$forestgreen: rgb(19, 42, 19);
+$green-darker: rgb(49, 87, 44);
+$green-dark: rgb(79, 119, 45);
+$lime: rgb(144, 169, 85);
+$lightgreen: rgb(236, 243, 158);
+$black: rgb(0, 0, 0);
+$white: #ffffff;
+
+$size-body: 1rem;
+$size-h1: 2rem;
+$size-h2: 1.5rem;
+$size-h3: 1.25rem;
+$size-h4: 1rem;
+
+// General colors and styles
+$color-primary: #333;
+$color-accent: rgb(236, 243, 158);
+$color-bg-light: #f5f5f5;
+$color-border: #ddd;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: $forestgreen;
+  border-radius: 2rem;
+  margin: 1rem 1rem 0;
+
+  &__logo {
+    font-size: 2rem;
+    color: $white;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: $color-primary;
+
+    &::placeholder {
+      color: darken($color-primary, 20%);
+    }
+  }
+
+  &__button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: $white;
+    background-color: $lime;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($lime, 10%);
+    }
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+
+  .info {
+    text-align: center;
+
+    &__location {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $color-primary;
+      margin: 0;
+    }
+
+    &__updated {
+      font-size: 1rem;
+      color: $color-primary;
+    }
+  }
+
+  .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 1rem;
+    width: 100%;
+
+    &__icon {
+      width: 60px;
+      height: 60px;
+      margin: 1rem 0;
+    }
+
+    &__temp {
+      font-size: 3rem;
+      font-weight: bold;
+      color: $color-primary;
+      margin: 0;
+    }
+
+    &__text {
+      font-size: 1rem;
+      text-transform: capitalize;
+      color: $color-primary;
+    }
+  }
+
+  .extra {
+    display: flex;
+    flex-wrap: wrap; // Allows items to wrap to the next line
+    gap: 1rem; // Adds spacing between items
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+
+    &__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    &__item {
+      width: 40%;
+      flex-grow: 1;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+
+      &__title {
+        font-size: 1rem;
+        color: $color-primary;
+        margin-bottom: 0.4rem;
+      }
+
+      &__text {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: $color-primary;
+      }
+    }
+  }
+}
