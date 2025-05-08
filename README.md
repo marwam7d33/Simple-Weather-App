@@ -12,7 +12,7 @@ To get started with the Simple Weather App, follow the installation steps below.
 
 - 🔍 Search weather by city
 - 🌡️ Displays temperature, humidity, and conditions
-- 📍 Location-based weather (optional)
+- 📍 Location-based weather
 - ⚡ Built with React + Vite for lightning-fast performance
 - 🎨 Responsive and minimalist UI
 
